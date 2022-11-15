@@ -1,0 +1,59 @@
+.loading {
+    height: 0;
+    width: 0;
+    padding: 15px;
+    border: 6px solid #ccc;
+    border-right-color: #888;
+    border-radius: 22px;
+    -webkit-animation: rotate 1s infinite linear;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+@-webkit-keyframes rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.avatarTile{
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin: 20px;
+    width: 20%;
+}
+
+.imgs{
+    height: 200px;
+    width: 100%;
+    background-color: #F0F0F0;
+}
+.details{
+    display: block;
+    justify-content: start;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0 10px;
+}
+p{
+    margin: 1px;
+}
+.icons{
+    padding-right: 2%;
+    font-size: 24px;
+    color: gray;
+}
+.bottomTile{
+    background-color: #D0D0D0;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
